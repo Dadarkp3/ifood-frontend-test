@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Nav } from './styles';
+import logo from '../../assets/img/logo.png';
+
+import { Nav, Logo } from './styles';
 
 const Navbar: React.FC = () => {
   return (
     <Nav>
-      <h1>Navbar</h1>
+      <Logo src={logo} />
     </Nav>
   );
 };
