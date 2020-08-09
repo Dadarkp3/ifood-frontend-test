@@ -16,7 +16,7 @@ const Login: React.FC = () => {
           <Logo src={logo} />
           <h2>
             O melhor lugar para ficar enquanto sua comida está a caminho. Relaxe
-            com uma seleção de m´úsicas especiais para você balançar a cabeça e
+            com uma seleção de músicas especiais para você balançar a cabeça e
             enganar o estômago.
           </h2>
           <button type="button">Acessar</button>

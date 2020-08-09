@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div`
   display: flex;
@@ -66,6 +67,7 @@ export const AcessLogin = styled.div`
     }
 
     button {
+      cursor: pointer;
       width: fit-content;
       align-self: center;
       padding: 0.4rem 3rem;
@@ -74,7 +76,7 @@ export const AcessLogin = styled.div`
       background-color: #ea202f;
       border: none;
       &:hover {
-        background-color: #b50b18;
+        background-color: ${shade(0.4, '#ea202f')};
       }
     }
   }
